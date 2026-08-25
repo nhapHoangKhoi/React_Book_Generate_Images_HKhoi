@@ -46,7 +46,7 @@ export function SignInPage() {
         </div>
         <div className="field">
           <label htmlFor="email">
-            Emai <span className="req">*</span>
+            Email <span className="req">*</span>
           </label>
           <input
             id="email"
