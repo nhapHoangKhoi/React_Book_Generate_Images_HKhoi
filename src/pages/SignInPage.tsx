@@ -14,7 +14,7 @@ export function SignInPage() {
   const submit = async (event: React.FormEvent) => {
     event.preventDefault()
     if (!name.trim() || !email.includes('@')) {
-      setError('Enter your name and a valid email to continue.')
+      setError('Enter your name and an email to continue.')
       return
     }
     setBusy(true)
