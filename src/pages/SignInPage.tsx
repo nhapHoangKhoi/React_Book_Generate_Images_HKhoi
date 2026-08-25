@@ -34,9 +34,6 @@ export function SignInPage() {
   return (
     <div className="center-page">
       <form className="auth-card" onSubmit={submit} noValidate>
-        <div className="logo-row">
-          <img src="/logo.png" alt="Gradion" className="logo logo-lg" />
-        </div>
         <h3 style={{ textAlign: 'center', fontSize: 20 }}>Book Illustration Studio</h3>
         <p className="meta" style={{ textAlign: 'center', marginBottom: 24 }}>
           Enter your details to start or resume an illustration project.

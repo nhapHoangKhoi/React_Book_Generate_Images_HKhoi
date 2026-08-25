@@ -45,14 +45,6 @@ function Nav() {
           onClick={() => navigate('/projects')}
           aria-label="Go to your projects"
         >
-          <img src="/logo.png" alt="Gradion" className="logo" />
-        </button>
-        <button
-          type="button"
-          className="nav-brand btn-ghost"
-          onClick={() => navigate('/projects')}
-          aria-label="Go to your projects"
-        >
           <span className="nav-title">Projects</span>
         </button>
         <div className="nav-user">
